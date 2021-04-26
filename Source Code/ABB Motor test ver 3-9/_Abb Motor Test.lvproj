@@ -73,10 +73,15 @@
 		<Item Name="ABB SIgn All.vi" Type="VI" URL="../ABB SIgn All.vi"/>
 		<Item Name="ABB Test report .vi" Type="VI" URL="../ABB Test report .vi"/>
 		<Item Name="Configuration Tool.vi" Type="VI" URL="../../../../../../Arduino/Luminex/Configuration Tool.vi"/>
+		<Item Name="ePad Config2.vi" Type="VI" URL="../../../Test Data/ePad Config2.vi"/>
 		<Item Name="EPad Sign Link.vi" Type="VI" URL="../EPad Sign Link.vi"/>
+		<Item Name="epad2.vi" Type="VI" URL="../../../../../temp/epad2.vi"/>
 		<Item Name="FLip BMP.vi" Type="VI" URL="../FLip BMP.vi"/>
 		<Item Name="Piezosystem Comms Example.vi" Type="VI" URL="/E/Documents_B------/_Westcam-----------------/Customers/Piezosystem/Piezosystem Comms Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -516,7 +521,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7DB371A5-E5E3-4F1C-87AF-188BC1F767FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ABB Motor Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ABB Motor Test.exe</Property>
