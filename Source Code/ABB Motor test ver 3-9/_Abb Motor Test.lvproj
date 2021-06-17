@@ -79,9 +79,14 @@
 		<Item Name="EPad Sign Link.vi" Type="VI" URL="../EPad Sign Link.vi"/>
 		<Item Name="epad2.vi" Type="VI" URL="../../../../../temp/epad2.vi"/>
 		<Item Name="FLip BMP.vi" Type="VI" URL="../../../../../Common64/Vision/FLip BMP.vi"/>
+		<Item Name="Hide Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Hide Window.vi"/>
 		<Item Name="Make Window Always on Top.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Make Window Always on Top.vi"/>
+		<Item Name="Minimize Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Minimize Window.vi"/>
 		<Item Name="Move Video Window.vi" Type="VI" URL="../Move Video Window.vi"/>
 		<Item Name="Piezosystem Comms Example.vi" Type="VI" URL="/E/Documents_B------/_Westcam-----------------/Customers/Piezosystem/Piezosystem Comms Example.vi"/>
+		<Item Name="Restore Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Restore Window.vi"/>
+		<Item Name="Run Video Displays_ABB.vi" Type="VI" URL="../Run Video Displays_ABB.vi"/>
+		<Item Name="Show Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Show Window.vi"/>
 		<Item Name="Single Video Display2.vi" Type="VI" URL="../Single Video Display2.vi"/>
 		<Item Name="Single Video DisplayN.vi" Type="VI" URL="../Single Video DisplayN.vi"/>
 		<Item Name="Video Displays.vi" Type="VI" URL="../Video Displays.vi"/>
@@ -119,8 +124,11 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Window RefNum.vi" Type="VI" URL="/&lt;userlib&gt;/Common/Windows/Winutil.llb/Get Window RefNum.vi"/>
+				<Item Name="Not a Window Refnum" Type="VI" URL="/&lt;userlib&gt;/Common/Windows/Winutil.llb/Not a Window Refnum"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
+				<Item Name="PostMessage Master.vi" Type="VI" URL="/&lt;userlib&gt;/Common/lvwutil32/Winutil.llb/PostMessage Master.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
@@ -139,6 +147,7 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Window Refnum" Type="VI" URL="/&lt;userlib&gt;/Common/lvwutil32/Winutil.llb/Window Refnum"/>
 				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
@@ -398,6 +407,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -569,6 +579,7 @@
 			<Item Name="LogFileGlobals.vi" Type="VI" URL="../../../../../Common64/Log Files/LogFiles.llb/LogFileGlobals.vi"/>
 			<Item Name="LogLabViewError.vi" Type="VI" URL="../../../../../Common64/WPX Image Server RT/LogLabViewError.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="LVWUtil32.dll" Type="Document" URL="../../../../../Common64/lvwutil32/LVWUtil32.dll"/>
 			<Item Name="Move Window to Top.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Move Window to Top.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -604,7 +615,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{63CE5BC1-1312-4DEC-986F-442FB148337E}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VideoDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VideoDisplayN.exe</Property>
@@ -994,9 +1005,6 @@
 				<Property Name="SourceCount" Type="Int">51</Property>
 			</Item>
 			<Item Name="Copy of Copy of Video Displays" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2017/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_Temp_Project_Path" Type="Path">/C/Projects/Labview Projects/LabView2017/ABB/Motor Test/Source Code/ABB Motor test ver 3-9/_Abb Motor Test.lvproj</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2017/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A9216604-9A66-470D-B406-825419B92955}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2614A699-3731-4EB3-AAF6-8A6FA620BE90}</Property>
