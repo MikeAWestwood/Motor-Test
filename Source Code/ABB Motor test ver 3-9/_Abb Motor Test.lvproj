@@ -73,6 +73,7 @@
 		<Item Name="ABB SIgn All.vi" Type="VI" URL="../ABB SIgn All.vi"/>
 		<Item Name="ABB Test Bearing run.vi" Type="VI" URL="../ABB Test Bearing run.vi"/>
 		<Item Name="ABB Test report .vi" Type="VI" URL="../ABB Test report .vi"/>
+		<Item Name="ChangeVidStream.html" Type="Document" URL="../ChangeVidStream.html"/>
 		<Item Name="Configuration Tool.vi" Type="VI" URL="../../../../../../Arduino/Luminex/Configuration Tool.vi"/>
 		<Item Name="Create JPEG from Byte Array.vi" Type="VI" URL="../../../../../Common64/Vision/Create JPEG from Byte Array.vi"/>
 		<Item Name="ePad Config2.vi" Type="VI" URL="../../../Test Data/ePad Config2.vi"/>
@@ -80,17 +81,23 @@
 		<Item Name="epad2.vi" Type="VI" URL="../../../../../temp/epad2.vi"/>
 		<Item Name="FLip BMP.vi" Type="VI" URL="../../../../../Common64/Vision/FLip BMP.vi"/>
 		<Item Name="Hide Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Hide Window.vi"/>
+		<Item Name="Main Open Camera.vi" Type="VI" URL="../../../../../IP Cameras/Main Open Camera.vi"/>
 		<Item Name="Make Window Always on Top.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Make Window Always on Top.vi"/>
 		<Item Name="Minimize Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Minimize Window.vi"/>
-		<Item Name="Move Video Window.vi" Type="VI" URL="../Move Video Window.vi"/>
+		<Item Name="Moz Test.vi" Type="VI" URL="../Moz Test.vi"/>
 		<Item Name="Piezosystem Comms Example.vi" Type="VI" URL="/E/Documents_B------/_Westcam-----------------/Customers/Piezosystem/Piezosystem Comms Example.vi"/>
+		<Item Name="Print Report_ABB.vi" Type="VI" URL="../Print Report_ABB.vi"/>
 		<Item Name="Restore Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Restore Window.vi"/>
 		<Item Name="Run Video Displays_ABB.vi" Type="VI" URL="../Run Video Displays_ABB.vi"/>
 		<Item Name="Show Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Show Window.vi"/>
-		<Item Name="Single Video Display2.vi" Type="VI" URL="../Single Video Display2.vi"/>
-		<Item Name="Single Video DisplayN.vi" Type="VI" URL="../Single Video DisplayN.vi"/>
+		<Item Name="Single VLC DisplayN.vi" Type="VI" URL="../Single VLC DisplayN.vi"/>
+		<Item Name="Video Command type.ctl" Type="VI" URL="../Video Command type.ctl"/>
+		<Item Name="Video Display Buttons.ctl" Type="VI" URL="../Video Display Buttons.ctl"/>
 		<Item Name="Video Displays.vi" Type="VI" URL="../Video Displays.vi"/>
+		<Item Name="Video Replace Dialog HTML.vi" Type="VI" URL="../Video Replace Dialog HTML.vi"/>
+		<Item Name="Video Window Handler_ABB.vi" Type="VI" URL="../Video Window Handler_ABB.vi"/>
 		<Item Name="VideoWindowsCommand.ctl" Type="VI" URL="../VideoWindowsCommand.ctl"/>
+		<Item Name="VLC Video Stream handler.vi" Type="VI" URL="../VLC Video Stream handler.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
@@ -124,11 +131,7 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Get Window RefNum.vi" Type="VI" URL="/&lt;userlib&gt;/Common/Windows/Winutil.llb/Get Window RefNum.vi"/>
-				<Item Name="Not a Window Refnum" Type="VI" URL="/&lt;userlib&gt;/Common/Windows/Winutil.llb/Not a Window Refnum"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
-				<Item Name="PostMessage Master.vi" Type="VI" URL="/&lt;userlib&gt;/Common/lvwutil32/Winutil.llb/PostMessage Master.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
@@ -147,7 +150,6 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="Window Refnum" Type="VI" URL="/&lt;userlib&gt;/Common/lvwutil32/Winutil.llb/Window Refnum"/>
 				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
@@ -335,6 +337,8 @@
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Enum Registry Values Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values Simple.vi"/>
+				<Item Name="Enum Registry Values.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -381,6 +385,7 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
+				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
@@ -522,7 +527,6 @@
 			<Item Name="CircLog_AddLogEntry.vi" Type="VI" URL="../../../../../Common64/WPX Image Server RT/CircLog_AddLogEntry.vi"/>
 			<Item Name="CircLog_WriteToLogFile.vi" Type="VI" URL="../../../../../Common64/WPX Image Server RT/CircLog_WriteToLogFile.vi"/>
 			<Item Name="Get Window RefNum.vi" Type="VI" URL="../../../../../Common64/lvwutil32/Winutil.llb/Get Window RefNum.vi"/>
-			<Item Name="HTML Video Steams.vi" Type="VI" URL="../HTML Video Steams.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -581,15 +585,22 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVWUtil32.dll" Type="Document" URL="../../../../../Common64/lvwutil32/LVWUtil32.dll"/>
 			<Item Name="Move Window to Top.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Move Window to Top.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Not a Window Refnum" Type="VI" URL="../../../../../Common64/lvwutil32/Winutil.llb/Not a Window Refnum"/>
 			<Item Name="PadString.vi" Type="VI" URL="../../../../../Common64/String Functions/PadString.vi"/>
+			<Item Name="PostMessage Master.vi" Type="VI" URL="../../../../../Common64/lvwutil32/Winutil.llb/PostMessage Master.vi"/>
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../../../../../Common64/Misc/Read Monitor Resolution.vi"/>
 			<Item Name="RTD Type.ctl" Type="VI" URL="../RTD Type.ctl"/>
 			<Item Name="Set Window Z-Position.vi" Type="VI" URL="../../../../../Common64/lvwutil32/Winutil.llb/Set Window Z-Position.vi"/>
 			<Item Name="SPX Fit cooling curve.vi" Type="VI" URL="../SPX Fit cooling curve.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="TC Type.ctl" Type="VI" URL="../TC Type.ctl"/>
 			<Item Name="Temp error msg.ctl" Type="VI" URL="../Temp error msg.ctl"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
@@ -615,7 +626,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{63CE5BC1-1312-4DEC-986F-442FB148337E}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VideoDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VideoDisplayN.exe</Property>
@@ -630,11 +641,11 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Video Displays.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single Video DisplayN.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single VLC DisplayN.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Single Video Display2.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Westplex Ltd (ZA)</Property>
@@ -661,7 +672,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7DB371A5-E5E3-4F1C-87AF-188BC1F767FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ABB Motor Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ABB Motor Test.exe</Property>
@@ -1044,6 +1055,46 @@
 				<Property Name="TgtF_targetfileName" Type="Str">VideoDiplays.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="My Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{649851EF-5E5F-423C-B696-1367B56AF432}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FCE3415B-3177-4F3D-8476-083EA860DF0D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BE8C6181-E515-4FCE-B529-CD60D1EA6048}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7E07852F-D724-4D97-8146-A1AEB9B06AB8}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C9A3880E-B173-41ED-BB7F-1D1A56A9F613}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Moz Test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8540361D-4B6F-49F5-987A-D2300BD66A6F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Video Displays" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{49DC3653-394E-44FD-893A-A696378BFBA1}</Property>
@@ -1084,6 +1135,166 @@
 				<Property Name="TgtF_targetfileName" Type="Str">VideoDiplays.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Video Displays Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">westplex</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{1C8085D1-4E12-46AB-A321-5E6CE24B9055}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">c:\New Path</Property>
+				<Property Name="Destination[1].path" Type="Path">/c/New Path</Property>
+				<Property Name="Destination[1].tag" Type="Str">{52FF0EB3-82EF-43E1-8C03-62EA41A66BCC}</Property>
+				<Property Name="Destination[1].type" Type="Str">absFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Video Displays</Property>
+				<Property Name="Destination[2].parent" Type="Str">{1C8085D1-4E12-46AB-A321-5E6CE24B9055}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{76CDD4D3-78B6-4522-AB39-4C7649553D33}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[3].name" Type="Str">Westplex</Property>
+				<Property Name="Destination[3].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{B0EF7F2D-E88B-49F9-B3A2-A6534F0DCB59}</Property>
+				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[4].name" Type="Str">ABB Motor Test</Property>
+				<Property Name="Destination[4].parent" Type="Str">{B0EF7F2D-E88B-49F9-B3A2-A6534F0DCB59}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{911D2990-D64F-45C2-86D8-A51788F52C10}</Property>
+				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{2584F563-77A5-45F6-805F-F65A9BC27570}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2017 SP1 f4</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2017</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4F261250-2C38-488D-A9EC-9D1EFCC24D4B}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Runtime 2017 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{182AE811-85B6-4238-B67E-F19497CC186B}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2017</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{620DBAE1-B159-4204-8186-0813C8A6434C}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Westplex Ltd (ZA)</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/ABB Video Displays/Video Displays Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Video Displays Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{1C8085D1-4E12-46AB-A321-5E6CE24B9055}</Property>
+				<Property Name="INST_productName" Type="Str">ABB Video Displays</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">17018010</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Westplex Ltd (ZA)</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{B4484730-2736-4215-B9BC-E2CDB98EDFA7}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{7B3195D0-2D87-4ADF-93A0-D2C91B85D65D}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{76CDD4D3-78B6-4522-AB39-4C7649553D33}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{76CDD4D3-78B6-4522-AB39-4C7649553D33}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">VideoDisplay1.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">VideoDisplay1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">ABB Video Displays</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{4EE6E954-BD84-4571-8389-25004C78BAD3}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">VideoDisplay1</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/VideoDisplay1</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{76CDD4D3-78B6-4522-AB39-4C7649553D33}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{76CDD4D3-78B6-4522-AB39-4C7649553D33}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">VideoDisplay2.exe</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">VideoDisplay2</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">ABB Video Displays</Property>
+				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[1].File[0].tag" Type="Str">{C3856961-4245-4982-AF3E-6A63EB1CC49D}</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">VideoDisplay2</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/VideoDisplay2</Property>
+				<Property Name="Source[1].type" Type="Str">EXE</Property>
+				<Property Name="Source[2].dest" Type="Str">{911D2990-D64F-45C2-86D8-A51788F52C10}</Property>
+				<Property Name="Source[2].name" Type="Str">ChangeVidStream.html</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/ChangeVidStream.html</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="VideoDisplay1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0B74C3BF-9E34-4635-B9B2-C5B1E93E2D89}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AF7BA6DB-A3B4-4555-9B4C-E3A63FFB8C04}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{572215BE-FC1C-4446-B857-A6F01B0A13C9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">VideoDisplay1</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{726AD086-5745-4CA8-81E6-20F629C87811}</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">VLCDisplay1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplay1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BAD71CAD-0793-4A6A-A227-3CB1434D1D1B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Video Displays.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single VLC DisplayN.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_internalName" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_productName" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4EE6E954-BD84-4571-8389-25004C78BAD3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">VLCDisplay1.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="VideoDisplay2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{F0923F06-D0C2-4D8B-931C-DD500CF02715}</Property>
@@ -1099,35 +1310,75 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1BD93956-D99B-4386-8382-3CBFB86129A4}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">VideoDisplay2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VideoDisplay2.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">VLCDisplay2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplay2.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{059F08A6-AA28-4F09-8E3D-6F120797C359}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BAD71CAD-0793-4A6A-A227-3CB1434D1D1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Video Displays.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single Video DisplayN.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single VLC DisplayN.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Single Video Display2.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Westplex Ltd (ZA)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Video Displays</Property>
 				<Property Name="TgtF_internalName" Type="Str">Video Displays</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Westplex Ltd (ZA)</Property>
 				<Property Name="TgtF_productName" Type="Str">Video Displays</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C3856961-4245-4982-AF3E-6A63EB1CC49D}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">VideoDisplay2.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">VLCDisplay2.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="VLC DisplayN" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A6C5ABE6-1CE4-4A8F-B69A-B9A8B9868368}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CBF7E88F-0211-494E-8920-4FFCFA283821}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E26344E4-73FB-42C5-A160-D80CD7EB883F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">VLC DisplayN</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{83BC37AB-0310-4C3E-A95D-9CFEEDB142A7}</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">VLCDisplayN.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplayN.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9A24DDAB-1C15-4F7F-8C2F-74A09A7442B6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Video Displays.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single VLC DisplayN.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_internalName" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Westplex Ltd (ZA)</Property>
+				<Property Name="TgtF_productName" Type="Str">Video Displays</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8D251D37-9A3C-48A1-BC7A-F98B5786FD2D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">VLCDisplayN.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
