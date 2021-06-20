@@ -79,18 +79,22 @@
 		<Item Name="ePad Config2.vi" Type="VI" URL="../../../Test Data/ePad Config2.vi"/>
 		<Item Name="EPad Sign Link.vi" Type="VI" URL="../EPad Sign Link.vi"/>
 		<Item Name="epad2.vi" Type="VI" URL="../../../../../temp/epad2.vi"/>
+		<Item Name="Find or Create Month Folder.vi" Type="VI" URL="../Find or Create Month Folder.vi"/>
 		<Item Name="FLip BMP.vi" Type="VI" URL="../../../../../Common64/Vision/FLip BMP.vi"/>
 		<Item Name="Hide Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Hide Window.vi"/>
 		<Item Name="Main Open Camera.vi" Type="VI" URL="../../../../../IP Cameras/Main Open Camera.vi"/>
 		<Item Name="Make Window Always on Top.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Make Window Always on Top.vi"/>
 		<Item Name="Minimize Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Minimize Window.vi"/>
+		<Item Name="Move Temp pdf to Folder_ABB.vi" Type="VI" URL="../Move Temp pdf to Folder_ABB.vi"/>
 		<Item Name="Moz Test.vi" Type="VI" URL="../Moz Test.vi"/>
 		<Item Name="Piezosystem Comms Example.vi" Type="VI" URL="/E/Documents_B------/_Westcam-----------------/Customers/Piezosystem/Piezosystem Comms Example.vi"/>
 		<Item Name="Print Report_ABB.vi" Type="VI" URL="../Print Report_ABB.vi"/>
+		<Item Name="Print Test Report By Month_ABB.vi" Type="VI" URL="../Print Test Report By Month_ABB.vi"/>
 		<Item Name="Restore Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Restore Window.vi"/>
 		<Item Name="Run Video Displays_ABB.vi" Type="VI" URL="../Run Video Displays_ABB.vi"/>
 		<Item Name="Show Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Show Window.vi"/>
 		<Item Name="Single VLC DisplayN.vi" Type="VI" URL="../Single VLC DisplayN.vi"/>
+		<Item Name="Test Report By Month_ABB.vi" Type="VI" URL="../Test Report By Month_ABB.vi"/>
 		<Item Name="Video Command type.ctl" Type="VI" URL="../Video Command type.ctl"/>
 		<Item Name="Video Display Buttons.ctl" Type="VI" URL="../Video Display Buttons.ctl"/>
 		<Item Name="Video Displays.vi" Type="VI" URL="../Video Displays.vi"/>
@@ -366,6 +370,7 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
@@ -672,7 +677,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7DB371A5-E5E3-4F1C-87AF-188BC1F767FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ABB Motor Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ABB Motor Test.exe</Property>
@@ -1267,7 +1272,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{726AD086-5745-4CA8-81E6-20F629C87811}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">52</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VLCDisplay1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplay1.exe</Property>
@@ -1276,7 +1281,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BAD71CAD-0793-4A6A-A227-3CB1434D1D1B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C9D90B05-CE99-4C21-B74B-BAE1CF711A8E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Video Displays.vi</Property>
@@ -1353,7 +1358,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83BC37AB-0310-4C3E-A95D-9CFEEDB142A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VLCDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplayN.exe</Property>
