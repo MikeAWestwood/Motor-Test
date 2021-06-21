@@ -95,6 +95,8 @@
 		<Item Name="Show Window.vi" Type="VI" URL="../../../../../Common64/Windows/Winutil.llb/Show Window.vi"/>
 		<Item Name="Single VLC DisplayN.vi" Type="VI" URL="../Single VLC DisplayN.vi"/>
 		<Item Name="Test Report By Month_ABB.vi" Type="VI" URL="../Test Report By Month_ABB.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../../../Test Data/Untitled 2.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="../../../Test Data/Untitled 3.vi"/>
 		<Item Name="Video Command type.ctl" Type="VI" URL="../Video Command type.ctl"/>
 		<Item Name="Video Display Buttons.ctl" Type="VI" URL="../Video Display Buttons.ctl"/>
 		<Item Name="Video Displays.vi" Type="VI" URL="../Video Displays.vi"/>
@@ -677,7 +679,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7DB371A5-E5E3-4F1C-87AF-188BC1F767FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ABB Motor Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ABB Motor Test.exe</Property>
@@ -1358,7 +1360,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83BC37AB-0310-4C3E-A95D-9CFEEDB142A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VLCDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplayN.exe</Property>
