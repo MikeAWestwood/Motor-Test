@@ -633,7 +633,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{63CE5BC1-1312-4DEC-986F-442FB148337E}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VideoDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VideoDisplayN.exe</Property>
@@ -679,7 +679,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7DB371A5-E5E3-4F1C-87AF-188BC1F767FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ABB Motor Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ABB Motor Test.exe</Property>
@@ -1360,7 +1360,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83BC37AB-0310-4C3E-A95D-9CFEEDB142A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VLCDisplayN.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Video Displays/VLCDisplayN.exe</Property>
